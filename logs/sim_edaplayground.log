@@ -1,0 +1,28 @@
+[2026-10-19 18:42:03 UTC] iverilog '-Wall' '-g2012' design.sv testbench.sv  && unbuffer vvp a.out  
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module AND2XL declared here: design.sv:70
+       :   -- module AOI2BB1X1 declared here: design.sv:76
+       :   -- module AOI2BB1XL declared here: design.sv:77
+       :   -- module INVX1 declared here: design.sv:69
+       :   -- module NAND2X1 declared here: design.sv:71
+       :   -- module NOR2BX1 declared here: design.sv:73
+       :   -- module OA21X1 declared here: design.sv:74
+       :   -- module SDFFRHQX1 declared here: design.sv:61
+       :   -- module XNOR2X1 declared here: design.sv:72
+       :   -- module counter declared here: design.sv:7
+VCD info: dumpfile dump.vcd opened for output.
+PASS reset: count = 00
+PASS functional count x5: count = 05
+PASS scan load A5: count = a5
+PASS capture A5+1: count = a6
+PASS scan unload: captured response A6 seen on scan_out
+PASS capture FF+1 wraps: count = 00
+
+*** ALL TESTS PASSED ***
+testbench.sv:67: $finish called at 236000 (1ps)
+Finding VCD file...
+./dump.vcd
+[2026-10-19 18:42:04 UTC] Opening EPWave...
+Done

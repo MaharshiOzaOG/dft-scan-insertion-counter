@@ -1,0 +1,900 @@
+$date
+	Mon Oct 19 14:49:20 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_scan_counter $end
+$var wire 1 ! scan_out $end
+$var wire 8 " count [7:0] $end
+$var reg 1 # SE $end
+$var reg 1 $ clk $end
+$var reg 1 % rst $end
+$var reg 1 & scan_in $end
+$var reg 8 ' unloaded [7:0] $end
+$var integer 32 ( errors [31:0] $end
+$var integer 32 ) i [31:0] $end
+$scope module dut $end
+$var wire 1 # SE $end
+$var wire 1 $ clk $end
+$var wire 1 % rst $end
+$var wire 1 & scan_in $end
+$var wire 1 ! scan_out $end
+$var wire 1 * n_9 $end
+$var wire 1 + n_8 $end
+$var wire 1 , n_7 $end
+$var wire 1 - n_6 $end
+$var wire 1 . n_5 $end
+$var wire 1 / n_4 $end
+$var wire 1 0 n_3 $end
+$var wire 1 1 n_2 $end
+$var wire 1 2 n_13 $end
+$var wire 1 3 n_12 $end
+$var wire 1 4 n_11 $end
+$var wire 1 5 n_10 $end
+$var wire 1 6 n_1 $end
+$var wire 1 7 n_0 $end
+$var wire 8 8 count [7:0] $end
+$scope module count_reg[0] $end
+$var wire 1 $ CK $end
+$var wire 1 % RN $end
+$var wire 1 # SE $end
+$var wire 1 & SI $end
+$var wire 1 7 D $end
+$var reg 1 9 Q $end
+$upscope $end
+$scope module count_reg[1] $end
+$var wire 1 $ CK $end
+$var wire 1 % RN $end
+$var wire 1 # SE $end
+$var wire 1 : SI $end
+$var wire 1 1 D $end
+$var reg 1 ; Q $end
+$upscope $end
+$scope module count_reg[2] $end
+$var wire 1 $ CK $end
+$var wire 1 % RN $end
+$var wire 1 # SE $end
+$var wire 1 < SI $end
+$var wire 1 0 D $end
+$var reg 1 = Q $end
+$upscope $end
+$scope module count_reg[3] $end
+$var wire 1 $ CK $end
+$var wire 1 % RN $end
+$var wire 1 # SE $end
+$var wire 1 > SI $end
+$var wire 1 . D $end
+$var reg 1 ? Q $end
+$upscope $end
+$scope module count_reg[4] $end
+$var wire 1 $ CK $end
+$var wire 1 % RN $end
+$var wire 1 # SE $end
+$var wire 1 @ SI $end
+$var wire 1 + D $end
+$var reg 1 A Q $end
+$upscope $end
+$scope module count_reg[5] $end
+$var wire 1 $ CK $end
+$var wire 1 % RN $end
+$var wire 1 # SE $end
+$var wire 1 B SI $end
+$var wire 1 * D $end
+$var reg 1 C Q $end
+$upscope $end
+$scope module count_reg[6] $end
+$var wire 1 $ CK $end
+$var wire 1 % RN $end
+$var wire 1 # SE $end
+$var wire 1 D SI $end
+$var wire 1 3 D $end
+$var reg 1 E Q $end
+$upscope $end
+$scope module count_reg[7] $end
+$var wire 1 $ CK $end
+$var wire 1 % RN $end
+$var wire 1 # SE $end
+$var wire 1 F SI $end
+$var wire 1 2 D $end
+$var reg 1 G Q $end
+$upscope $end
+$scope module g199__8780 $end
+$var wire 1 H A $end
+$var wire 1 2 Y $end
+$var wire 1 4 B $end
+$upscope $end
+$scope module g201__4296 $end
+$var wire 1 I A0 $end
+$var wire 1 3 Y $end
+$var wire 1 4 B0 $end
+$var wire 1 5 A1 $end
+$upscope $end
+$scope module g203__3772 $end
+$var wire 1 J A $end
+$var wire 1 4 Y $end
+$var wire 1 5 B $end
+$upscope $end
+$scope module g204__1474 $end
+$var wire 1 K A0N $end
+$var wire 1 * Y $end
+$var wire 1 5 B0 $end
+$var wire 1 , A1N $end
+$upscope $end
+$scope module g206__9682 $end
+$var wire 1 L A $end
+$var wire 1 5 Y $end
+$var wire 1 , B $end
+$upscope $end
+$scope module g207__4547 $end
+$var wire 1 M A0N $end
+$var wire 1 + Y $end
+$var wire 1 , B0 $end
+$var wire 1 - A1N $end
+$upscope $end
+$scope module g209__2683 $end
+$var wire 1 N A $end
+$var wire 1 , Y $end
+$var wire 1 - B $end
+$upscope $end
+$scope module g210__1309 $end
+$var wire 1 O A0N $end
+$var wire 1 . Y $end
+$var wire 1 - B0 $end
+$var wire 1 / A1N $end
+$upscope $end
+$scope module g212__6877 $end
+$var wire 1 P A $end
+$var wire 1 - Y $end
+$var wire 1 / B $end
+$upscope $end
+$scope module g213__2900 $end
+$var wire 1 Q A0N $end
+$var wire 1 0 Y $end
+$var wire 1 / B0 $end
+$var wire 1 6 A1N $end
+$upscope $end
+$scope module g215__7675 $end
+$var wire 1 R A $end
+$var wire 1 / Y $end
+$var wire 1 6 B $end
+$upscope $end
+$scope module g216__2391 $end
+$var wire 1 S A0N $end
+$var wire 1 T A1N $end
+$var wire 1 1 Y $end
+$var wire 1 6 B0 $end
+$upscope $end
+$scope module g218__7118 $end
+$var wire 1 U AN $end
+$var wire 1 6 Y $end
+$var wire 1 7 B $end
+$upscope $end
+$scope module g219 $end
+$var wire 1 V A $end
+$var wire 1 7 Y $end
+$upscope $end
+$upscope $end
+$scope task check $end
+$var reg 8 W exp [7:0] $end
+$var reg 256 X msg [255:0] $end
+$upscope $end
+$scope task scan_shift $end
+$var reg 8 Y load [7:0] $end
+$var reg 8 Z unload [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx Z
+bx Y
+bx X
+bx W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+b0 8
+17
+06
+05
+14
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+bx )
+b0 (
+bx '
+0&
+0%
+0$
+0#
+b0 "
+0!
+$end
+#5000
+1$
+#10000
+0$
+#12000
+1%
+b111001001100101011100110110010101110100 X
+b0 W
+#15000
+11
+07
+1T
+1V
+1:
+b1 "
+b1 8
+19
+1$
+#20000
+0$
+#25000
+17
+0T
+0V
+0:
+1S
+1U
+1<
+09
+b10 "
+b10 8
+1;
+1$
+#30000
+0$
+#35000
+10
+01
+16
+07
+1T
+1V
+1:
+b11 "
+b11 8
+19
+1$
+#40000
+0$
+#45000
+0.
+06
+10
+17
+0/
+0T
+0V
+0:
+0S
+0U
+0<
+1R
+1Q
+1>
+09
+0;
+b100 "
+b100 8
+1=
+1$
+#50000
+0$
+#55000
+11
+07
+1T
+1V
+1:
+b101 "
+b101 8
+19
+1$
+#56000
+1&
+b111 )
+1#
+b10100101 Y
+b1100110011101010110111001100011011101000110100101101111011011100110000101101100001000000110001101101111011101010110111001110100001000000111100000110101 X
+b101 W
+#60000
+b0xxxxxxx Z
+0$
+#65000
+01
+10
+1.
+16
+1S
+1U
+1<
+0R
+0Q
+0>
+1P
+1O
+1@
+1;
+0=
+b1011 "
+b1011 8
+1?
+1$
+#66000
+0&
+b110 )
+#70000
+b0xxxxxx Z
+0$
+#75000
+0.
+11
+1+
+10
+06
+0/
+17
+1N
+1M
+1B
+0P
+0O
+0@
+1R
+1Q
+1>
+0T
+0V
+0:
+1A
+0?
+1=
+b10110 "
+b10110 8
+09
+1$
+#76000
+1&
+b101 )
+#80000
+b0xxxxx Z
+0$
+#85000
+1.
+0+
+1*
+07
+1T
+1V
+1:
+0S
+0U
+0<
+1P
+1O
+1@
+0N
+0M
+0B
+1L
+1K
+1D
+19
+0;
+1?
+0A
+b101101 "
+b101101 8
+1C
+1$
+#86000
+0&
+b100 )
+#90000
+b0xxxx Z
+0$
+#95000
+0*
+1+
+00
+13
+17
+1J
+1I
+1F
+0L
+0K
+0D
+1N
+1M
+1B
+0R
+0Q
+0>
+1S
+1U
+1<
+0T
+0V
+0:
+1E
+0C
+1A
+0=
+1;
+b1011010 "
+b1011010 8
+09
+1$
+#96000
+b11 )
+#100000
+b0xxx Z
+0$
+#105000
+01
+10
+0.
+1*
+03
+12
+0S
+0U
+0<
+1R
+1Q
+1>
+0P
+0O
+0@
+1L
+1K
+1D
+0J
+0I
+0F
+1H
+1!
+0;
+1=
+0?
+1C
+0E
+b10110100 "
+b10110100 8
+1G
+1$
+#106000
+1&
+b10 )
+#110000
+b1xx Z
+0$
+#115000
+0+
+1.
+00
+11
+02
+13
+07
+0H
+0!
+1J
+1I
+1F
+0N
+0M
+0B
+1P
+1O
+1@
+0R
+0Q
+0>
+1T
+1V
+1:
+0G
+1E
+0A
+1?
+0=
+b1101001 "
+b1101001 8
+19
+1$
+#116000
+0&
+b1 )
+#120000
+b10x Z
+0$
+#125000
+0.
+1+
+0*
+12
+17
+0T
+0V
+0:
+1S
+1U
+1<
+0P
+0O
+0@
+1N
+1M
+1B
+0L
+0K
+0D
+1H
+1!
+09
+1;
+0?
+1A
+0C
+b11010010 "
+b11010010 8
+1G
+1$
+#126000
+1&
+b0 )
+#130000
+b101 Z
+0$
+#135000
+1*
+0+
+10
+03
+07
+0J
+0I
+0F
+1L
+1K
+1D
+0N
+0M
+0B
+1R
+1Q
+1>
+0S
+0U
+0<
+1T
+1V
+1:
+0E
+1C
+0A
+1=
+0;
+b10100101 "
+b10100101 8
+19
+1$
+#136000
+b11100110110001101100001011011100010000001101100011011110110000101100100001000000100000100110101 X
+b10100101 W
+b101 '
+0#
+b11111111111111111111111111111111 )
+#140000
+0$
+#145000
+17
+0T
+0V
+0:
+1S
+1U
+1<
+09
+b10100110 "
+b10100110 8
+1;
+1$
+#146000
+b111 )
+1#
+b11111111 Y
+b11000110110000101110000011101000111010101110010011001010010000001000001001101010010101100110001 X
+b10100110 W
+#150000
+b10000101 Z
+0$
+#155000
+0*
+1.
+02
+13
+07
+0H
+0!
+1J
+1I
+1F
+0L
+0K
+0D
+1P
+1O
+1@
+0S
+0U
+0<
+1T
+1V
+1:
+0G
+1E
+0C
+1?
+0;
+b1001101 "
+b1001101 8
+19
+1$
+#156000
+b110 )
+#160000
+0$
+#165000
+01
+10
+1+
+16
+03
+12
+1S
+1U
+1<
+0R
+0Q
+0>
+1N
+1M
+1B
+0J
+0I
+0F
+1H
+1!
+1;
+0=
+1A
+0E
+b10011011 "
+b10011011 8
+1G
+1$
+#166000
+b101 )
+#170000
+b10100101 Z
+0$
+#175000
+1*
+00
+02
+1/
+0H
+0!
+1L
+1K
+1D
+0P
+0O
+0@
+1R
+1Q
+1>
+0G
+1C
+0?
+b110111 "
+b110111 8
+1=
+1$
+#176000
+b100 )
+#180000
+0$
+#185000
+1+
+0.
+13
+1-
+1P
+1O
+1@
+0N
+0M
+0B
+1J
+1I
+1F
+1?
+0A
+b1101111 "
+b1101111 8
+1E
+1$
+#186000
+b11 )
+#190000
+0$
+#195000
+0+
+12
+1,
+1H
+1!
+0L
+0K
+0D
+1N
+1M
+1B
+1G
+0C
+b11011111 "
+b11011111 8
+1A
+1$
+#196000
+b10 )
+#200000
+0$
+#205000
+0*
+13
+15
+1L
+1K
+1D
+0J
+0I
+0F
+1C
+b10111111 "
+b10111111 8
+0E
+1$
+#206000
+b1 )
+#210000
+b10100111 Z
+0$
+#215000
+03
+12
+04
+0H
+0!
+1J
+1I
+1F
+0G
+b1111111 "
+b1111111 8
+1E
+1$
+#216000
+b0 )
+#220000
+b10100110 Z
+0$
+#225000
+02
+1H
+1!
+b11111111 "
+b11111111 8
+1G
+1$
+#226000
+b10100110 '
+0#
+b11111111111111111111111111111111 )
+#230000
+0$
+#235000
+00
+06
+02
+14
+05
+0,
+0-
+0/
+17
+0H
+0!
+0J
+0I
+0F
+0L
+0K
+0D
+0N
+0M
+0B
+0P
+0O
+0@
+0R
+0Q
+0>
+0S
+0U
+0<
+0T
+0V
+0:
+0G
+0E
+0C
+0A
+0?
+0=
+0;
+b0 "
+b0 8
+09
+1$
+#236000
+b11000110110000101110000011101000111010101110010011001010010000001000110010001100010101100110001001000000111011101110010011000010111000001110011 X
+b0 W
